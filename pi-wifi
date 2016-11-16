@@ -1,3 +1,10 @@
 #! /bin/bash
-# It's a sh for enable wifi on a centos Pi.
+PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
+export PATH
+#=================================================================#
+#   System Required:  CentOS On Pi                                #
+#   Description: It's a sh for enable wifi on a centos Pi.        #
+#   Author: sumsxing <sumsxing@qq.com>                            #
+#=================================================================#
+sudo yum -y install crda iw wireless
 
