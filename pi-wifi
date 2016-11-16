@@ -1,1 +1,3 @@
-#!bin/bash
+#! /bin/bash
+# It's a sh for enable wifi on a centos Pi.
+
